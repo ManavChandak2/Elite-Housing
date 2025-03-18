@@ -1,0 +1,73 @@
+[
+    {
+      "_id": { "$oid": "64392d39dfd90fb29e464fb7" },
+      "title": "Koregaon Park Retreat",
+      "description": "Spacious villa in the heart of Koregaon Park, Pune. Perfect for those looking for a peaceful yet luxurious home with access to premium amenities.",
+      "price": 12000,
+      "address": "Lane 5, Koregaon Park",
+      "city": "Pune",
+      "country": "India",
+      "image": "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg",
+      "userEmail": "example@gmail.com",
+      "createdAt": { "$date": "2023-04-14T10:38:48.762Z" },
+      "updatedAt": { "$date": "2023-04-14T10:38:48.762Z" },
+      "facilities": { "bathrooms": "3", "parking": "2", "bedrooms": "4" }
+    },
+    {
+      "_id": { "$oid": "64392e0bdfd90fb29e464fbc" },
+      "title": "Whitefield Serenity Villa",
+      "description": "A beautifully designed villa in Whitefield, Bangalore, offering modern interiors and close proximity to tech parks.",
+      "price": 15000,
+      "address": "Whitefield Main Road",
+      "city": "Bangalore",
+      "country": "India",
+      "image": "https://3.bp.blogspot.com/-84l-BoUL090/VTDHcQzSTNI/AAAAAAAAuHI/Khftta_CF5E/s1920/wow-home-design.jpg",
+      "facilities": { "bathrooms": "4", "parking": "2", "bedrooms": "5" },
+      "userEmail": "example@gmail.com",
+      "createdAt": { "$date": "2023-04-14T10:42:19.231Z" },
+      "updatedAt": { "$date": "2023-04-14T10:42:19.231Z" }
+    },
+    {
+      "_id": { "$oid": "6439001c74446601d6fce96d" },
+      "title": "Baner Hillside Residency",
+      "description": "A luxurious apartment with a panoramic view of Baner Hills. Close to IT hubs and shopping centers.",
+      "price": 8000,
+      "address": "Baner Road, Baner",
+      "city": "Pune",
+      "country": "India",
+      "image": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+      "userEmail": "example@gmail.com",
+      "createdAt": { "$date": "2023-04-14T07:26:20.051Z" },
+      "updatedAt": { "$date": "2023-04-14T07:26:20.051Z" },
+      "facilities": { "bathrooms": "2", "parking": "1", "bedrooms": "3" }
+    },
+    {
+        "_id": { "$oid": "6439001c74446601d6fce96e" },
+        "title": "7 Plumeria Drive",
+        "description": "A premium residential project in Ravet offering modern amenities and excellent connectivity.",
+        "price": 25000,
+        "address": "Ravet, Pune",
+        "city": "Pune",
+        "country": "India",
+        "image": "https://propjinni.com/wp-content/uploads/2023/08/7-PLUMERIA-DRIVE-NEAR-DANGE-CHOWK-10-.jpg",
+        "userEmail": "example@gmail.com",
+        "createdAt": { "$date": "2023-04-14T07:26:20.051Z" },
+        "updatedAt": { "$date": "2023-04-14T07:26:20.051Z" },
+        "facilities": { "bathrooms": "2", "parking": "1", "bedrooms": "3" }
+      },
+    {
+      "_id": { "$oid": "64392e1edfd90fb29e464fbd" },
+      "title": "Indiranagar Dream Home",
+      "description": "Located in the heart of Indiranagar, this home offers a blend of modern living and excellent connectivity.",
+      "price": 14000,
+      "address": "12th Main, Indiranagar",
+      "city": "Bangalore",
+      "country": "India",
+      "image": "https://e0.pxfuel.com/wallpapers/12/377/desktop-wallpaper-beautiful-houses-beautiful-mansion.jpg",
+      "facilities": { "bathrooms": "3", "parking": "1", "bedrooms": "4" },
+      "userEmail": "example@gmail.com",
+      "createdAt": { "$date": "2023-04-14T10:42:37.946Z" },
+      "updatedAt": { "$date": "2023-04-14T10:42:37.946Z" }
+    }
+  ]
+  
