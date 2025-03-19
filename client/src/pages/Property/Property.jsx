@@ -70,7 +70,7 @@ const Property = () => {
       <div className="flexColStart paddings innerWidth property-container">
         {/* like button */}
         <div className="like">
-          <Heart id={id}/>
+          <Heart id={id} />
         </div>
 
         {/* image */}
@@ -83,7 +83,7 @@ const Property = () => {
             <div className="flexStart head">
               <span className="primaryText">{data?.title}</span>
               <span className="orangeText" style={{ fontSize: "1.5rem" }}>
-                $ {data?.price}
+                ₹ {data?.price}
               </span>
             </div>
 
@@ -119,9 +119,7 @@ const Property = () => {
             <div className="flexStart" style={{ gap: "1rem" }}>
               <MdLocationPin size={25} />
               <span className="secondaryText">
-                {data?.address}{" "}
-                {data?.city}{" "}
-                {data?.country}
+                {data?.address} {data?.city} {data?.country}
               </span>
             </div>
 

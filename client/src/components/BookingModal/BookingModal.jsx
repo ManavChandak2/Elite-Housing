@@ -8,10 +8,8 @@ import { toast } from "react-toastify";
 import dayjs from "dayjs";
 const BookingModal = ({ opened, setOpened, email, propertyId }) => {
   const [value, setValue] = useState(null);
-  const {
-    userDetails: { token },
-    setUserDetails,
-  } = useContext(UserDetailContext);
+  const { userDetails, setUserDetails } = useContext(UserDetailContext);
+  console.log(userDetails);
 
   const handleBookingSuccess = () => {
     toast.success("You have booked your visit", {
@@ -30,7 +28,7 @@ const BookingModal = ({ opened, setOpened, email, propertyId }) => {
   };
 
   const { mutate, isLoading } = useMutation({
-    mutationFn: () => bookVisit(value, propertyId, email, token),
+    mutationFn: () => bookVisit(value, propertyId, email, userDetails.token),
     onSuccess: () => handleBookingSuccess(),
     onError: ({ response }) => toast.error(response.data.message),
     onSettled: () => setOpened(false),
@@ -43,7 +41,7 @@ const BookingModal = ({ opened, setOpened, email, propertyId }) => {
       title="Select your date of visit"
       centered
     >
-      <div className="flexColCenter" style={{gap: "1rem"}}>
+      <div className="flexColCenter" style={{ gap: "1rem" }}>
         <DatePicker value={value} onChange={setValue} minDate={new Date()} />
         <Button disabled={!value || isLoading} onClick={() => mutate()}>
           Book visit

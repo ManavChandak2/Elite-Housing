@@ -17,7 +17,6 @@ const Header = () => {
   const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
   const { validateLogin } = useAuthCheck();
 
-
   const handleAddPropertyClick = () => {
     if (validateLogin()) {
       setModalOpened(true);
@@ -44,7 +43,7 @@ const Header = () => {
           >
             <NavLink to="/properties">Properties</NavLink>
 
-            <a href="mailto:zainkeepscode@gmail.com">Contact</a>
+            <a href="mailto:mohitkhade@gmail.com">Contact</a>
 
             {/* add property */}
             <div onClick={handleAddPropertyClick}>Add Property</div>
